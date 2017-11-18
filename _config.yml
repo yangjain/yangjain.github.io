@@ -1,0 +1,31 @@
+
+title: YANG JAIN
+desctiption: Composer, Arranger, Player
+url: jainyang.github.io
+permalink: ':title/'
+
+markdown: kramdown
+baseurl: ""
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+include: [_pages]
+
+plugins: 
+    - jekyll-paginate
+    - jekyll-seo-tag
